@@ -16,7 +16,7 @@ export default function Index() {
     return (
         <View style={[styles.container, {paddingTop: top}, ]}>
             <TouchableOpacity style={styles.button} onPress={() => showModal(ModalType.Login)}>
-                <Text>Log In</Text>
+                <Text>Log In nigger</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button} onPress={() => showModal(ModalType.SignUp)}>
                 <Text>Sign Up</Text>
