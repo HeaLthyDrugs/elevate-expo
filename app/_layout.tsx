@@ -40,9 +40,9 @@ const InitialLayout = () => {
         const inAuthGroup = segments[0] === '(authenticated)';
     
         if (isSignedIn && !inAuthGroup) {
-          router.replace('/(authenticated)/(tabs)/ai/index');
+          router.replace('/(authenticated)/(tabs)/ai');
         } else if (!isSignedIn) {
-          router.replace('/(authenticated)/(tabs)/account');
+          router.replace('/');
         }
       }, [isSignedIn]);
     
@@ -61,6 +61,7 @@ const InitialLayout = () => {
         <Stack>
           <Stack.Screen name="index" options={{ headerShown: false }} />
           <Stack.Screen name="(authenticated)" options={{ headerShown: false }} />
+          <Stack.Screen name="(authenticated)/(tabs)" options={{ headerShown: false }} />
         </Stack>
       </SupabaseProvider>
     );

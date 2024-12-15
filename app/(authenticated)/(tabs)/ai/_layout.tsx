@@ -5,17 +5,23 @@ import { Image, TouchableOpacity } from 'react-native';
 
 const Layout = () => {
   const router = useRouter();
-
   return (
     <Stack>
       <Stack.Screen
         name="index"
         options={{
+          headerShown: false,
+        }}
+      />
+       <Stack.Screen
+        name="settings"
+        options={{
+          title: 'Settings',
           headerStyle: {
             backgroundColor: Colors.primary,
           },
-
-            }}
+          headerTintColor: 'white'
+        }}
       />
  
     </Stack>

@@ -15,6 +15,19 @@ const Layout = () => {
                 },
             }}>
             <Tabs.Screen
+                name="ai"
+                options={{
+                    title: 'AI',
+                    tabBarIcon: ({ size, color }) => (
+                        <MaterialCommunityIcons
+                            name="robot"
+                            size={size}
+                            color={color}
+                        />
+                    ),
+                }}
+            />
+            <Tabs.Screen
                 name="blogs"
                 options={{
                     title: 'Blogs',
@@ -33,7 +46,7 @@ const Layout = () => {
                     title: 'Profile',
                     tabBarIcon: ({ size, color }) => (
                         <MaterialCommunityIcons
-                            name="view-dashboard-variant-outline"
+                            name="account"
                             size={size}
                             color={color}
                         />
