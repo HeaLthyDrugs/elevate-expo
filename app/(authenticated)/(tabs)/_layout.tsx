@@ -15,9 +15,9 @@ const Layout = () => {
                 },
             }}>
             <Tabs.Screen
-                name="ai"
+                name="home"
                 options={{
-                    title: 'AI',
+                    title: 'Home',
                     tabBarIcon: ({ size, color }) => (
                         <MaterialCommunityIcons
                             name="robot"
