@@ -1,6 +1,18 @@
 export const Colors = {
-  primary: '#1465de',
-  grey: '#A6A3AF',
-  fontLight: "#fff",
-  fontDark: "#292929"
+  backgroundLight: '#fff',
+  backgroundDark: '#000',
+  fontLight: '#fff',
+  fontDark: '#292929',
+  CardBackgroundLight: '#f3f3f4',
+  CardBackgroundDark: '#222',
+  DarkRed: '#FF7272',
+  DarkYellow: '#FFD058',
+  DarkPurple: '#9B51E0',
+  LightOrange: '#FFEDD5',
+  LightYellow: '#FEF9C3',
+  LightRed: '#FEE2E2',
+  LightBlue: '#DBEAFE',
+  LightPurple: '#f3e8ff',
+  LightGreen: '#ecfccb',
+  LightGray: '#f3f3f4',
 }

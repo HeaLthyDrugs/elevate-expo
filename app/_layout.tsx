@@ -52,7 +52,7 @@ const InitialLayout = () => {
   if (!isLoaded) {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <ActivityIndicator size="large" color={Colors.primary} />
+        <ActivityIndicator size="large" color={Colors.backgroundLight} />
       </View>
     );
   }
@@ -72,6 +72,10 @@ const InitialLayout = () => {
 const RootlayoutNav = () => {
   const [loaded] = useFonts({
     "SpaceMono-Regular": require("../assets/fonts/SpaceMono-Regular.ttf"),
+    "Montserrat-Regular": require("../assets/fonts/Montserrat-Regular.ttf"),
+    "Montserrat-Medium": require("../assets/fonts/Montserrat-Medium.ttf"),
+    "Montserrat-SemiBold": require("../assets/fonts/Montserrat-SemiBold.ttf"),
+    "Montserrat-Bold": require("../assets/fonts/Montserrat-Bold.ttf"),
   });
 
   useEffect(() => {

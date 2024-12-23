@@ -107,7 +107,7 @@ export default function Index() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: Colors.primary,
+        backgroundColor: Colors.backgroundLight,
         justifyContent: 'center',
     },
     button: {
