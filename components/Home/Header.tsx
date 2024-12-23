@@ -2,6 +2,7 @@ import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 import { Colors } from '@/constants/Colors'
 
+
 const Header = () => {
     return (
         <View style={styles.container}>
@@ -16,12 +17,12 @@ const styles = StyleSheet.create({
         padding: 15,
        },
       greeting: {
-        fontSize: 16,
+        fontSize: 14,
         fontFamily: 'Montserrat-Regular',
         color: Colors.fontDark,
         },
       username: {
-        fontSize: 40,
+        fontSize: 35,
         color: Colors.fontDark,
         fontFamily: 'Montserrat-Bold',
        }
